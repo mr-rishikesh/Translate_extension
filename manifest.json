@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Rishi Hindi Translator",
+    "version": "1.0",
+    "description": "Translate selected text into Hindi on the page.",
+    "permissions": ["scripting"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
